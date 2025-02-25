@@ -112,7 +112,7 @@ def antisymmetrize_residual_2_2(Roovv):
     return Roovv_anti / 4.0
 
 #all tensors must be antisymmetric with respect to all cdag indices
-#and (seperattely) all c indices (f_ij must not be antisymmetrized, since it involves only 1 index per cdag and c)
+#and all c indices (f_ij must not be antisymmetrized, since it involves only 1 index per cdag and c)
 
 #create one particle and two particle terms of the Hamiltonian
 for x in range(Nx):
@@ -148,7 +148,7 @@ for x in range(Nx):
                 f[site2ov+site1ov][site2i,site1i] += t
             f[site1ov+site1ov] += mu
             # need this because cdagup cup cdagdown cdown = -:cdagup cdagdown cup cdown: + :cdagup cup:
-            # if down is full in groundstate
+            # if down is fully occupied in groundstate
             #https://theorie.ikp.physik.tu-darmstadt.de/tnp/pub/2013_gebrerufael_master.pdf
             if site1ov == "v" and p < 2:
                 f[site1ov+site1ov][site1i,site1i] += U
