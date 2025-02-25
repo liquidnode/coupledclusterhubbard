@@ -4,7 +4,7 @@ Application of the augmented lagrangian method (https://arxiv.org/abs/2403.16381
 
 Energies close to "LeBlanc, James PF, et al. Physical Review X 5.4 (2015): 041041." are found:
 
-4x4 cluster at U=4 and half-filling:   -0.827412
-6x6 cluster at U=8 and half-filling:   -0.515061
-8x8 cluster at U=8 and half-filling:   -0.515140
+4x4 cluster at U=4 and half-filling:   -0.827412 <br />
+6x6 cluster at U=8 and half-filling:   -0.515061 <br />
+8x8 cluster at U=8 and half-filling:   -0.515140 <br />
 10x10 cluster at U=8 and half-filling: -0.515134
